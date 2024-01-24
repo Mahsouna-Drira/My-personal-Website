@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Poppins, Haettenschweiler, 'Arial Narrow Thin', sans-serif;
+}
+#name{
+    font-weight: 900;
+    font-size: 25px;
+}
+.active {
+    color: #6a59d1;
+}
+a{
+    text-decoration: none;
+    color:#0e2431;
+
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#menu a:hover{
+    color: #6a59d1 ;
+}
+
+nav {
+		display: flex;
+		justify-content:space-evenly;
+		align-items: center;
+		flex-direction: row;
+		padding: 20px;
+		backdrop-filter: blur(20px);
+		transition: .6s ease;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+.wrapper {
+	width: 45%;
+	min-width: 550px;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	left: 50%;
+	top: 50%;
+}
+.skill-area {
+    margin-top: 60px;
+	width: 100%;
+	padding: 50px 30px;
+	border-radius: 10px;
+	box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+	background: #fff;
+}
+.skill-area h2{
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+.box:not(:last-child){
+    margin-bottom: 30px;
+}
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.line-area {
+	position: relative;
+	background-color: #6a59d1;
+	padding: 10px;
+}
+.line-area div{
+    position: relative;
+    width: 0;
+    height: 5px;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+#line-1{
+    animation: ani-1 2s forwards;
+}
+@keyframes ani-1{
+    100%{
+        width: 85%;
+    }
+}
+#line-2{
+    animation: ani-2 2s forwards;
+}
+@keyframes ani-2{
+    100%{
+        width: 80%;
+    }
+}
+#line-3{
+    animation: ani-3 2s forwards;
+}
+@keyframes ani-3 {
+    100%{
+        width: 70%;
+    }
+}
+#line-4{
+    animation: ani-4 2s forwards;
+}
+@keyframes ani-4{
+    100%{
+        width: 75%;
+    }
+}

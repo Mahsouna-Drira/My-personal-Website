@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Poppins, Haettenschweiler, 'Arial Narrow Thin', sans-serif;
+}
+#name{
+    font-weight: 900;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color:#0e2431;
+
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.active {
+    color: #6a59d1;
+}
+
+#menu a:hover{
+    color: #6a59d1 ;
+}
+
+nav{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    backdrop-filter: blur(20px);
+    transition: .6s ease;
+}
+
+#clubs {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 16px;
+	padding: 16px;
+	line-height: 24px;
+}
+
+.club {
+	display: flex;
+	flex-direction: column;
+	padding: 16px;
+	border: 1px solid #e1e4e8;
+	border-radius: 6px;
+	width: 650px;
+	line-height: 24px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.club h2 {
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: -0.02em;
+	line-height: 28px;
+}
+
+.club p {
+	font-size: 14px;
+	font-weight: 400;
+	color: rgb(75 85 99);
+	line-height: 24px;
+	margin: 16px 0;
+}
+#titresection {
+	display: flex;
+    padding-top: 50px;
+	font-size: 38px;
+	font-weight: 600;
+	letter-spacing: -0.02em;
+	line-height: 28px;
+	margin-bottom: 18px;
+    color:#0e2431;
+	justify-content: center;
+	align-items: center;
+	margin-left: 30px;
+	
+}
+
+#descsection {
+	display: flex;
+	font-size: 16px;
+	font-weight: 400;
+	color: rgb(75 85 99);
+	line-height: 24px;
+	margin-bottom: 28px;
+	justify-content: center;
+	align-items: center;
+	margin-left: 30px;
+
+}
